@@ -215,7 +215,7 @@ main {
 @media (max-width: 576px) {
 
     .home-container .left h1 {
-        font-size: 45px;
+        font-size: 56px;
         line-height: 59px;
     }
 
@@ -251,8 +251,8 @@ main {
     }
 
     .home-container .left h1 {
-        font-size: 34px;
-        line-height: 42px;
+        font-size: 47px;
+        line-height: 48px;
     }
 
     .home-container .left p {
