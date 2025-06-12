@@ -291,10 +291,10 @@ main {
     }
 }
 
-@media (max-width:380px) {
+@media (max-width:390px) {
     .home-container .left h1 {
         font-size: 38px;
-        line-height: 45px;
+
 
     }
 }
