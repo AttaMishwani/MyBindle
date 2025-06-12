@@ -142,6 +142,36 @@ main {
 }
 
 
+.service {
+    width: 100%;
+    border: 2px solid green;
+    margin-top: 10rem;
+}
+
+.service-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border: 2px solid red;
+    background-color: var(--text-color);
+    min-height: 100vh;
+}
+
+.service-content h2,
+.service-content p {
+    text-align: center;
+}
+
+.service-content h2 {
+    color: var(--black-heading-text);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -3px;
+    margin-top: 2rem;
+}
+
 @media (max-width: 991px) {
 
     .home-container {
