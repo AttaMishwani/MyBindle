@@ -290,3 +290,11 @@ main {
         right: -1%;
     }
 }
+
+@media (max-width:380px) {
+    .home-container .left h1 {
+        font-size: 38px;
+        line-height: 45px;
+
+    }
+}
