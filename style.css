@@ -413,6 +413,74 @@ main {
 }
 
 
+.donate {
+    width: 100%;
+    padding: 1rem 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+
+
+}
+
+.donate-content {
+    width: 100%;
+    max-width: 1250px;
+    border-radius: 25px;
+    background-image: url("assets/images/Section.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 95vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-top: 4rem;
+    padding-left: 5.2rem;
+
+
+}
+
+.donate-info {
+    width: 70%;
+}
+
+
+.donate-info h3 {
+    font-size: 65px;
+    color: #FFFFFF;
+    font-weight: 600;
+    letter-spacing: -3px;
+    line-height: 70px;
+    margin-bottom: 1rem;
+
+}
+
+.donate-info p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.donate-info button {
+    background-color: #F2F2F2;
+    color: var(--primary-bg-color);
+    border: none;
+    padding: 13px 34px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 3.06px 3.06px 6.12px 0px #0000001A inset;
+
+}
+
 /* HOWITWORKS */
 
 @media (max-width: 991px) {
@@ -486,6 +554,27 @@ main {
 
         margin: 0 1rem;
     }
+
+    .donate-info button {
+        font-size: 14px;
+    }
+
+    .donate-info p {
+
+
+        font-size: 13px;
+    }
+
+    .donate-info h3 {
+        font-size: 40px;
+
+        line-height: 45px;
+
+    }
+
+
+
+
 }
 
 @media (max-width:768px) {
@@ -569,13 +658,15 @@ main {
     .howitworks-content .container .work-cards .work-card {
 
         width: 90%;
-
     }
 
     .howitworks-content .container .numbers span {
-
-
         margin-top: 1rem;
+    }
+
+    .donate-content {
+        padding-top: 3rem;
+        padding-left: 2.2rem;
     }
 
 }
@@ -635,6 +726,15 @@ main {
         line-height: 24px;
         margin: 0 1rem;
         font-size: 15px;
+    }
+
+    .donate-info {
+        width: 93%;
+    }
+
+    .donate-info h3 {
+        font-size: 35px;
+        line-height: 40px;
     }
 }
 
@@ -736,6 +836,15 @@ main {
         width: 178%;
 
     }
+
+    .donate-content {
+        padding-top: 1rem;
+        padding-left: 1.2rem;
+    }
+
+    .donate-info {
+        width: 100%;
+    }
 }
 
 @media (max-width:390px) {
@@ -749,5 +858,22 @@ main {
 
         margin-top: 10rem;
 
+    }
+
+    .donate-content {
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+
+    .donate-info h3 {
+        font-size: 25px;
+        line-height: 26px;
+        letter-spacing: 0.5px;
+    }
+
+    .donate-info button {
+        font-size: 12px;
+        padding: 11px 25px;
+        margin-top: 8px;
     }
 }
