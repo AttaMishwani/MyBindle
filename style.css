@@ -303,7 +303,7 @@ main {
     width: 100%;
     border-radius: 20px;
     text-align: center;
-    padding: 0rem 1rem;
+    padding: 10px 1rem;
     margin-top: 1.5rem;
     background-color: var(--section-bg-col);
     box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.7),
@@ -316,6 +316,104 @@ main {
     text-align: left;
     margin-top: 1rem;
 }
+
+
+/* HOWITWORKS */
+.howitworks {
+    width: 100%;
+    padding: 1rem 0;
+    /* border: 2px solid green; */
+}
+
+.howitworks-content {
+    width: 100%;
+    max-width: 1200px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+
+
+}
+
+.howitworks-content p {
+    color: var(--black-para-text);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: .9rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.howitworks-content .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.howitworks-content .container .numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+.howitworks-content .container .numbers span {
+    font-size: 35px;
+    font-weight: 600;
+    color: #FF5349;
+}
+
+.howitworks-content .container .numbers .numbers-line {
+    height: 2px;
+    background-color: #8F8F8F;
+    width: 30%;
+}
+
+.howitworks-content .container .work-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.howitworks-content .container .work-cards .work-card {
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 1rem;
+    margin-top: 0.5rem;
+    background-color: var(--section-bg-col);
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.7),
+        /* whitish shadow on top-left */
+        4px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.howitworks-content .container .work-cards .work-card h3 {
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.howitworks-content .container .work-cards .work-card p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+
+/* HOWITWORKS */
 
 @media (max-width: 991px) {
 
@@ -383,6 +481,11 @@ main {
     .about-right .section-heading {
         margin: 0;
     }
+
+    .howitworks-content p {
+
+        margin: 0 1rem;
+    }
 }
 
 @media (max-width:768px) {
@@ -433,6 +536,48 @@ main {
         margin-top: 2rem;
         margin: 2rem 1rem 0 1rem;
     }
+
+    .howitworks-content .container {
+        margin-top: 2rem;
+        padding: 0 11px;
+        flex-direction: row;
+    }
+
+    .howitworks-content .container .numbers {
+        flex-direction: column;
+    }
+
+    .howitworks-content .container .work-cards {
+        flex-direction: column;
+    }
+
+    .howitworks-content .container .numbers {
+
+        gap: 4.5rem;
+        width: 52%;
+        margin-bottom: 0;
+
+    }
+
+    .howitworks-content .container .numbers .numbers-line {
+
+
+        width: 41%;
+        transform: rotate(90deg);
+    }
+
+    .howitworks-content .container .work-cards .work-card {
+
+        width: 90%;
+
+    }
+
+    .howitworks-content .container .numbers span {
+
+
+        margin-top: 1rem;
+    }
+
 }
 
 
@@ -484,6 +629,12 @@ main {
 
         font-size: 15px;
 
+    }
+
+    .howitworks-content p {
+        line-height: 24px;
+        margin: 0 1rem;
+        font-size: 15px;
     }
 }
 
@@ -555,6 +706,34 @@ main {
         font-size: 12px;
 
         line-height: 17px;
+
+    }
+
+    .about-card-container .about-card {
+        align-items: center;
+
+    }
+
+    .about-card-container .about-card p {
+        text-align: center;
+
+    }
+
+    .howitworks-content .container .work-cards .work-card h3 {
+        font-size: 21px;
+    }
+
+    .howitworks-content .container .work-cards .work-card p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .howitworks-content .container .numbers {
+        width: 35%;
+    }
+
+    .howitworks-content .container .numbers .numbers-line {
+        width: 178%;
 
     }
 }
