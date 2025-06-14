@@ -1099,6 +1099,11 @@ footer {
         height: 83vh;
 
     }
+
+    .footer-info p {
+
+        width: 90%;
+    }
 }
 
 @media (max-width:390px) {
