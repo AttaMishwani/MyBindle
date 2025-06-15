@@ -364,8 +364,11 @@ main {
 .howitworks-content .container .numbers span {
     font-size: 35px;
     font-weight: 600;
-    color: #FF5349;
+    color: var(--primary-bg-color);
+    transition: color 0.3s ease;
 }
+
+
 
 .howitworks-content .container .numbers .numbers-line {
     height: 2px;
